@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header><h1>University Registration form</h1></header>
+    <p>Please fill out the form below to register.</p>
+    <hr />
+    <form>
+    <h2>Personal Details</h2>
+
+    <label for="firstName">First Name</label>
+    <input id="firstName" type="text" placeholer="John" name="firstName" />
+    <br />
+    <label for="lastName">Last Name</label>
+    <input id="lastName" placeholder="Doe" type="type" name="lastName" />
+    <br />
+    <label for="dob">Date of Birth</label>
+    <input id="dob" type="date" name="dob" />
+    <br />
+    <p>Gender:</p>
+    <label for="male">Male</label>
+    <input id="male" type="radio" name="gender" value="male" />
+    <br />
+    <label for="female">Female</label>
+    <input id="female" type="radio" name="gender" value="female"/>
+    <br/>
+    <label for="other">Other</label>
+    <input id="other" type="radio" name="gender" value="other"/>
+     <br/><br/>
+    <label>Upload File</label>
+    <br/>
+    <input type="file" name="file" id="file" />
+    <br/>
+    <hr/>
+    <h2>Contact Informtion</h2>
+    <label for="email" >Email</label>
+    <input type="email" id="email" name="email"/>
+    <br/>
+    <label for="phone" >Phone</label>
+    <input type="tel" id="phone" name="phone"/>
+    <br/>
+     <label for="address" >Address</label>
+    <textarea type="address" id="address" name="phone"></textarea>
+<br/>
+<hr/>
+<h3>Academic Information</h3>
+<label for="course">Select your course:</label><br/>
+<select name="course" id="course">
+    
+    <option value="python">python</option>
+    <option value="java">java</option>
+    <option value="javascript">javascript</option>
+    </select>
+<br/>
+<p>Extra curricular activities.</p>
+<label for="sports">Sports</label>
+<input id="sports" name="sports" type="checkbox" />
+<br/>
+<label for="arts">arts</label>
+<input id="arts" name="arts" type="checkbox" />
+<br/>
+<label for="tech">tech</label>
+<input id="tech" name="tech" type="checkbox" />
+<br/>
+<hr/>
+<h3>Create your account</h3>
+<label for="password">Password</label>
+<input type="password" name="password" id="password" />
+    <input type="submit"/>
+</form>
+</body>
+  </body>
+</html>

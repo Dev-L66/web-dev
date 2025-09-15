@@ -1,0 +1,57 @@
+/* tag selector */
+/* h1{
+background-color: bisque;
+}
+h2{
+    background-color: cadetblue;
+} */
+/* id selector */
+/* #first{
+     background-color: bisque;
+ }
+
+ #second{
+     background-color: rgb(182, 206, 206);
+ }
+
+ /* class selector */
+/* .third{
+     background-color: rgb(197, 159, 188);
+ }
+
+ .fourth{
+     background-color: rgb(218, 77, 77);
+ } */
+
+/* group based selector */
+/* .fourth, h1, #first{
+     background-color: rgba(197, 159, 188,0.9);
+ }
+
+ h2{
+    background-color: hsl(256, 67%, 22%);
+ }
+ ul{
+     background-color: hsla(115, 92%, 10%, 0.6);
+ }
+ .third{
+    background-color: #0f0f11;
+ } */
+
+/* font */
+h1 {
+  font-size: 100px;
+}
+ul {
+  font-size: 15px;
+}
+li {
+  /* font-size: 1em; */
+  font-size: 2vh;
+}
+h2 {
+  font-size: 4vw;
+  font-family: "Share Tech", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}

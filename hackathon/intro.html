@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Intro to Web Development</title>
+  </head>
+  <body>
+    <header>
+      <h1>Introduction to Web Development</h1>
+    </header>
+    <main>
+      <h2>What is Internet?</h2>
+      <img src="https://media.geeksforgeeks.org/wp-content/uploads/20230420093202/Internet-image-(2).webp" alt="internet" width="300px"/>
+      <p>
+        Internet is a global communication system that links together thousands
+        of individual networks. It allows exchange of information between two or
+        more computers on a network. Thus internet helps in transfer of messages
+        through mail, chat, video & audio conference, etc.
+      </p>
+      <hr>
+      <h2>What is an IP address?</h2>
+      <img src="https://www.ipxo.com/app/uploads/2021/09/IPv4-anatomy-min-820x402.png"  width="400px" alt="ip address image"/>
+      <p>
+        An IP (Internet Protocol) address is a unique numerical label assigned
+        to every device on a computer network that uses the Internet Protocol
+        for communication.
+        <ul>
+<li>It provides the network location of that device, enabling other
+        devices to find and communicate with it. </li>
+        <li> IP addresses are crucial for
+        sending and receiving information, ensuring data goes to the correct
+        destination.</li>
+        <li>The IP address is assigned by the Internet Service Provider (ISP).</li>
+        </ul> 
+     
+      </p>
+      <hr/>
+<h2>What is DNS?</h2>
+<p>
+    DNS stands for the Domain Name System, a crucial Internet system that translates human-friendly domain names (like www.example.com) into machine-readable IP addresses (like 192.0.2.1). It acts as the "phonebook of the Internet," allowing users to access websites and other online resources by simply typing a name into their browser instead of a complex numerical IP address. DNS servers handle these translation requests, known as DNS lookups, enabling devices to find and communicate with each other across the network. 
+</p>
+<h2>How DNS Works?</h2>
+<img src="https://media.geeksforgeeks.org/wp-content/uploads/20250423151312675710/DNS-SERVER.webp" alt="working of dns" width="400px"/>
+<ul>
+<li>
+<b>User Request:</b> You type a domain name (e.g., example.com) into your web browser. 
+<li><b>DNS Query:</b> Your computer sends a query to a DNS server, asking for the IP address associated with that domain name. </li>
+<li><b>DNS Resolution:</b> The DNS server looks up the IP address in its records. </li>
+<li><b>IP Address Found:</b> If the IP address is found, the DNS server returns it to your computer. </li>
+<li><b>Connection:</b> Your browser then uses this IP address to connect to the website's server and load the page.</li> 
+</ul>
+<hr/>
+<h2>What is MAC address?</h2>
+<img src="https://tecadmin.net/wp-content/uploads/2023/06/MAC-Address.png" alt="mac address" width="400px"/>
+<p>A MAC (Media Access Control) address is a unique, hardware-based identifier for a network interface controller (NIC) like an Ethernet port or Wi-Fi adapter, functioning as a device's permanent "name tag" on a local network segment to ensure data goes to the correct place.</p>
+   <hr/>
+   <h2>What is port number?</h2>
+   <p>Port numbers are 16-bit numerical identifiers (0-65535) that act as communication endpoints for specific processes or services on a networked device, working with an IP address to form a unique connection. They allow multiple applications to run on a single device and send or receive data over a network using protocols like TCP and UDP. Common port numbers include 80 for HTTP web traffic, 443 for HTTPS, and 22 for SSH. </p>
+
+   <hr/>
+   <h2>IPV4 vs IPV6</h2>
+   <img src="https://www.avg.com/hs-fs/hubfs/Blog_Content/Avg/Signal/AVG%20Signal%20Images/IPv4%20vs.%20IPv6%20addresses%20(Signal)/IPv4-vs-IPv6-EN.png?width=1320&name=IPv4-vs-IPv6-EN.png" alt="ipv4 vs ipv6" width="600px"/>
+   <p>IPv4 and IPv6 are different versions of the Internet Protocol, the system that assigns unique addresses to devices on the internet. IPv4 is the older, 32-bit version with a limited number of addresses, while IPv6 is the newer, 128-bit version with a vastly larger address space to accommodate the growing number of internet-connected devices. IPv6 is also superior in terms of built-in security features like IPsec, more efficient routing, and auto-configuration capabilities. </p>
+   <hr/>
+   <h2>Public IP vs Private IP</h2>
+   <img src="https://www.avast.com/hs-fs/hubfs/New_Avast_Academy/Public%20vs.%20local%20IP%20addresses%20(Academy)/Public-vs-Private-IP-Addresses-01-EN.png?width=1111&name=Public-vs-Private-IP-Addresses-01-EN.png" alt="public vs private ip" width="500px"/>
+   <table border="1">
+  <tr>
+    <th>Private IP Address</th>
+    <th>Public IP Address</th>
+  </tr>
+  <tr>
+    <td>The scope of Private IP is local.</td>
+    <td>The scope of Public IP is global.</td>
+  </tr>
+  <tr>
+    <td>It is used to communicate within the network.</td>
+    <td>It is used to communicate outside the network.</td>
+  </tr>
+  <tr>
+    <td>Private IP addresses of the systems connected in a network differ in a uniform manner.</td>
+    <td>Public IP may differ in a uniform or non‑uniform manner.</td>
+  </tr>
+  <tr>
+    <td>It works only on LAN.</td>
+    <td>It is used to get internet service.</td>
+  </tr>
+  <tr>
+    <td>It is used to load the network operating system.</td>
+    <td>It is controlled by ISP.</td>
+  </tr>
+  <tr>
+    <td>It is available free of cost.</td>
+    <td>It is not free of cost.</td>
+  </tr>
+  <tr>
+    <td>Private IP can be known by entering “ipconfig” on the command prompt.</td>
+    <td>Public IP can be known by searching “what is my ip” on Google.</td>
+  </tr>
+  <tr>
+    <td>Range:<br>10.0.0.0 – 10.255.255.255,<br>172.16.0.0 – 172.31.255.255,<br>192.168.0.0 – 192.168.255.255</td>
+    <td>Range: Besides private IP addresses, the rest are public.</td>
+  </tr>
+  <tr>
+    <td>Example: 192.168.1.10</td>
+    <td>Example: 17.5.7.8</td>
+  </tr>
+  <tr>
+    <td>Private IP uses numeric code that is not unique and can be used again.</td>
+    <td>Public IP uses a numeric code that is unique and cannot be used by other.</td>
+  </tr>
+  <tr>
+    <td>Private IP addresses are secure.</td>
+    <td>The public IP address has no security and is subjected to attack.</td>
+  </tr>
+  <tr>
+    <td>Private IP addresses require NAT to communicate with devices.</td>
+    <td>Public IP does not require a network translation.</td>
+  </tr>
+</table>
+<hr/>
+<h2>Web development</h2>
+
+<img src="https://media.geeksforgeeks.org/wp-content/uploads/20250705152348042640/Request-and-Response-Cycle.webp" alt="web development" width="500px"/>
+<ul>
+    When a client (typically a web browser) requests a web page from a server, the server responds by sending the necessary files to render that page. 
+This process involves the following:
+<br/>
+    <li>
+<b>Client Request: </b>The browser sends an HTTP request to the server, asking for a specific resource (e.g., an HTML file).</li>
+<br/>
+<li><b>Server Response (HTML):</b> The server sends an HTTP response back to the client, containing the requested HTML file.</li>
+<br/>
+<li><b>Browser Rendering (HTML):</b> The browser receives the HTML and starts parsing it, as it encounters references to other resources (like CSS files and JavaScript files) within the HTML.</li><br/>
+<li><b>Client Request (CSS):</b> The browser sends a separate HTTP request to the server to fetch the linked CSS file.</li><br>
+<li><b>Server Response (CSS): </b>The server responds to these requests by sending the corresponding CSS files.</li><br/>
+<li><b>Browser Rendering (CSS): </b>The browser applies the styles defined in the CSS file to the HTML elements, determining the visual presentation of the page (colors, fonts, layout, etc.).</li><br/>
+<li><b>Client Request (JavaScript):</b> The browser sends a separate HTTP request to the server to fetch the linked JavaScript file.</li><br/>
+<li><b>Server Response (JavaScript):</b> The server responds to these requests by sending the corresponding JavaScript files.</li><br/>
+This sequence of requests and responses allows the client to receive all the necessary components (HTML for structure, CSS for styling, and JavaScript for interactivity) to fully render and display a functional web page.</li><br/>
+</ul>
+<hr/>
+<h2>MERN STACK</h2>
+<img src="https://leadproinfotech.com/wp-content/uploads/2025/01/mern-stack.png" alt="mern stack" width="400px"/>
+<p>MERN (MongoDB, Express.js, React, Node.js) is a popular web development stack that consists of four main components: MongoDB, Express.js, React, and Node.js.</p>
+
+<p>Here's a brief overview of each component:</p>
+
+<ul>
+  <li><b>MongoDB:</b> MongoDB is a NoSQL database that stores data in a flexible, JSON-like format. It is known for its high scalability and easy-to-use interface.</li>
+  <li><b>Express.js:</b> Express.js is a minimal and flexible web application framework for Node.js. It provides a set of tools and features for building web applications and APIs.</li>
+  <li><b>React:</b> React is a JavaScript library for building user interfaces. It uses a component-based architecture, making it easy to manage complex UIs.</li>
+  <li><b>Node.js:</b> Node.js is a runtime environment for executing JavaScript code on the server-side. It allows you to build server-side applications using JavaScript.</li>
+</ul>
+
+<hr/>
+<h2>What is a fullstack developer?</h2>
+<img src="https://syntaxminds.com/wp-content/uploads/2024/09/Career-Scope-for-Full-Stack-Developers.webp" alt="fullstack developer" width="400px"/>
+<p>
+
+A Full Stack Developer is someone who works with both the frontend (client side) and backend (server side) of web/mobile applications. They can design, build, deploy, and maintain the whole application from what users see to what runs behind the scenes.</p>
+
+</main>
+<hr/>
+<br/>
+<div>
+ <a href="index.html">back</a>
+    <a href="introtohtml.html">next</a>
+    <br/>
+    </div>
+    <footer>copyright &copy;  2025 All rights reserved.</footer>
+  </body>
+</html>

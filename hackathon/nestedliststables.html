@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nested lists and tables</title>
+  </head>
+  <body>
+    <main>
+      <h2>Nested lists</h2>
+      <img src="assets/nestedlist.png" alt="nested list" />
+      <p>A nested list is a list inside another list item. You can use either ordered ol or unordered ul lists, and nest as many levels as needed (though too many can get confusing).</p>
+      <ul>
+        <li>
+          US
+          <ul>
+            <li>CA</li>
+            <ul>
+              <li>San Francisco</li>
+              <li>San Jose</li>
+            </ul>
+            <li>NY</li>
+            <li>TX</li>
+            <ol>
+              <li>Austin</li>
+              <li>Houston</li>
+            </ol>
+          </ul>
+        </li>
+        <li>
+          UK
+          <ul>
+            <li>London</li>
+            <li>Manchester</li>
+          </ul>
+        </li>
+      </ul>
+      <hr/>
+      <h2>Tables</h2>
+      <img src="assets/tables.png" alt="table tags"/>
+<p>The table tag is used to create a table. The th tag is used to create a table header. The tr tag is used to create a table row. The td tag is used to create a table data. The thead tag is used to create a table header. The tbody tag is used to create a table body. The tfoot tag is used to create a table footer. </p>
+  <ul>
+    <li>colspan: The colspan attribute in a table cell td or th lets that cell stretch across multiple columns horizontally. </li>
+
+<li>rowspan: The rowspan attribute makes a cell span across multiple rows vertically in the same column.</li>
+  </ul>    
+<table border="1">
+        <thead>
+          <th>Name</th>  
+          <th>role</th>
+        </thead>
+        <tbody>
+    <tr >
+          <td>Roy</td>  
+          <td rowspan="2">backend</td>
+        </tr>
+        <tr>
+          <td>Molly</td>  
+          
+        </tr>
+        <tr>
+          <td>Mo</td>  
+          <td>full stack developer</td>
+        </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="2">Total employees: 3</td>                        
+            </tr>         
+        </tfoot>
+</table>
+<hr>
+    </main>
+    <br/>
+    <div>
+    <a href="introtohtml.html">back</a>
+    <a href="filepath.html">next</a>
+    </div>
+    <br/>
+
+    
+     
+        <footer>copyright &copy;  2025 All rights reserved.</footer> 
+       
+  </body>
+</html>

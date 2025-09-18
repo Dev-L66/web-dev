@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Forms</title>
+  </head>
+  <body>
+    <header><h1>Forms in HTML</h1></header>
+    <main>
+      <h2>Input element</h2>
+      <img src="assets/input.png" alt="input element" />
+      <br />
+      <input type="text" />
+      <p>
+        This is the most common form tag. It's a self-closing tag that creates
+        an input field. Its behavior changes based on its type attribute. The
+        most basic type is text.
+      </p>
+      <hr />
+      <h2>label</h2>
+      <img src="assets/label.png" alt="label" />
+      <br />
+      <label>First Name:</label>
+      <input type="text" />
+      <p>It's a tag specifically designed to be the title for a form field.</p>
+      <hr />
+      <h2>id and for attributes</h2>
+      <img src="assets/idfor.png" alt="id and for attributes" />
+      <br />
+      <label for="firstName">First Name:</label>
+      <input type="text" id="firstName" />
+
+      <p>
+        To create a link between the input and the label, you can use the id and
+        for attributes.
+      </p>
+      <hr />
+      <h2>form tag</h2>
+      <img src="assets/form.png" alt="form tag" />
+      <br />
+      <form>
+        <label for="firstName">First Name:</label>
+        <input type="text" id="firstName" />
+
+        <br /><br />
+
+        <label for="lastName">Last Name:</label>
+        <input type="text" id="lastName" />
+
+        <br /><br />
+
+        <input type="submit" />
+      </form>
+      <p>
+        We wrap all our form fields in a form tag. This tag acts as the main
+        container that tells the browser, everything inside here is part of one
+        single submission. input with type="submit" is used to create a submit
+        button.
+      </p>
+      <hr />
+      <h2>Radio button</h2>
+      <img src="assets/radio.png" alt="radio button" />
+      <br />
+      <input type="radio" id="male" name="gender" value="male" />
+      <label for="male">Male</label>
+
+      <input type="radio" id="female" name="gender" value="female" />
+      <label for="female">Female</label>
+      <p>
+        The radio button is a type of input element that allows the user to
+        select one option from a set of options.
+      </p>
+      <hr/>
+      <h2>Checkbox</h2>
+      <img src="assets/checkbox.png" alt="checkbox" />
+      <br/>
+      <input type="checkbox" id="sports" name="interest" value="sports" />
+      <label for="sports">Sports</label>
+
+      <input type="checkbox" id="arts" name="interest" value="arts" />
+      <label for="arts">arts</label>
+
+      <input type="checkbox" id="tech" name="interest" value="tech" />
+      <label for="tech">tech</label>
+      <p>Checkbox is a type of input element that allows the user to select multiple options from a set of options</p>
+    <hr/>
+    <h2>Button</h2>
+    <img src="assets/button.png" alt="button" />
+    <br>
+     <button type="submit">
+    <strong>Submit</strong> 
+</button>
+    <p>It's a container tag, meaning it has an opening and closing tag. This allows you to put other HTML elements inside it.</p>
+    <hr/>
+    <h2>Textarea</h2>
+    <img src="assets/textarea.png" alt="textarea" />
+    <br/>
+    <textarea placeholder="write here"></textarea>
+    <hr/>
+    <h2>Color</h2>
+    <img src="assets/color.png" alt="color" />
+    <br/>
+    <input type="color" />
+    <p>It's a type of input element that allows the user to select a color.</p>
+    <hr/>
+    <h2>Select</h2>
+    <label for="country">Country:</label>
+<br>
+<select id="country" name="country">
+    <option value="">--Please choose an option--</option>
+    <option value="in">India</option>
+    <option value="us">USA</option>
+    <option value="uk">United Kingdom</option>
+    <option value="au">Australia</option>
+</select>
+<p>It is used to create a drop-down list of options in forms</p>
+<hr/>
+    </main>
+    <br/>
+<div>
+ <a href="nestedliststables.html">back</a>
+    <a href="deploy.html">next</a>
+    <br/>
+ </div>    
+    <footer>copyright &copy;  2025 All rights reserved.</footer>
+  </body>
+</html>
